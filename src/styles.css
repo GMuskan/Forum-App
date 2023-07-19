@@ -1,0 +1,105 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.home-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.post-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  width: 500px;
+  padding: 0.5rem;
+}
+
+.post-card .vote-section {
+  display: flex;
+  justify-content: center;
+}
+
+.post-card .vote-section i {
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+}
+
+.post-card .action-buttons {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.post-card .action-buttons i {
+  margin: 1rem;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.side-bar i {
+  margin: 1rem;
+}
+
+.user-profile {
+  position: relative;
+  bottom: -13rem;
+  line-height: 1px;
+}
+
+.user-profile .user {
+  font-weight: bold;
+}
+
+.user-name {
+  color: blueviolet;
+}
+
+.post-card .tag {
+  color: blueviolet;
+}
+
+.post-card .total-votes {
+  margin-left: 1rem;
+}
+
+.single-post-view {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.single-post-view .single-post-card-header {
+  text-align: left;
+  padding: 1rem;
+}
+
+.single-post-view .comment-section {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 0.5rem;
+  text-align: left;
+  line-height: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 500px;
+}
+
+.single-post-view .comment-section .comment-user-details {
+  display: flex;
+}
+
+.single-post-view
+  .comment-section
+  .comment-user-details
+  .comment-user-username {
+  margin: 1rem;
+  color: blueviolet;
+}
+
+.single-post-view .comment-section .replying-to-user-detail {
+  color: blueviolet;
+}
